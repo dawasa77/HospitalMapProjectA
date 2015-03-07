@@ -13,6 +13,8 @@
 		324781AA1A9EE46E008D77A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324781A91A9EE46E008D77A1 /* Images.xcassets */; };
 		324781AD1A9EE46E008D77A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324781AB1A9EE46E008D77A1 /* LaunchScreen.xib */; };
 		324781B91A9EE46E008D77A1 /* MapProjectATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324781B81A9EE46E008D77A1 /* MapProjectATests.swift */; };
+		324781C31A9EE484008D77A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324781C21A9EE484008D77A1 /* MapKit.framework */; };
+		324781C51A9EEF3D008D77A1 /* mapnavoskdat_iryou.csv in Resources */ = {isa = PBXBuildFile; fileRef = 324781C41A9EEF3D008D77A1 /* mapnavoskdat_iryou.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		324781B21A9EE46E008D77A1 /* MapProjectATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapProjectATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		324781B71A9EE46E008D77A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		324781B81A9EE46E008D77A1 /* MapProjectATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProjectATests.swift; sourceTree = "<group>"; };
+		324781C21A9EE484008D77A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		324781C41A9EEF3D008D77A1 /* mapnavoskdat_iryou.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mapnavoskdat_iryou.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324781C31A9EE484008D77A1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,8 @@
 		324781941A9EE46E008D77A1 = {
 			isa = PBXGroup;
 			children = (
+				324781C41A9EEF3D008D77A1 /* mapnavoskdat_iryou.csv */,
+				324781C21A9EE484008D77A1 /* MapKit.framework */,
 				3247819F1A9EE46E008D77A1 /* MapProjectA */,
 				324781B51A9EE46E008D77A1 /* MapProjectATests */,
 				3247819E1A9EE46E008D77A1 /* Products */,
@@ -192,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324781C51A9EEF3D008D77A1 /* mapnavoskdat_iryou.csv in Resources */,
 				324781A81A9EE46E008D77A1 /* Main.storyboard in Resources */,
 				324781AD1A9EE46E008D77A1 /* LaunchScreen.xib in Resources */,
 				324781AA1A9EE46E008D77A1 /* Images.xcassets in Resources */,
